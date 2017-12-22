@@ -1,0 +1,218 @@
+body {
+
+font-family: Helvetica, sans-serif;
+
+}
+
+.main-form {
+
+}
+
+h1 {
+
+}
+
+header {
+	padding-top: 15px;
+	margin: 0 auto;
+	display: block;
+	width: 1100px;
+	border-bottom: 1px solid #222;
+	
+}
+
+#compare-submit {
+	padding: 10px 10px 12px 10px;
+	background: #FFF;
+	color: #444;
+	font-size: 15px;
+	border: 1px solid #000;
+	border-radius: 6px;
+}
+#compare-submit:hover {
+	background-color: #444;
+	border: 1px solid #444;
+	color: #FFF;
+	cursor: pointer;
+}
+
+optgroup { 
+	font-size:15px; 
+}
+select option {
+	border-bottom: 1px solid #999;
+	padding-top: 2px;
+	padding-bottom: 3px;
+}
+select[id="D"], select option[id="D"] { /* value not val */
+    background: #E8F6FB;
+}
+select[id="R"], select option[id="R"] { /* value not val */
+    background: #FFECEB;
+}
+select[id="I"], select option[id="I"] { /* value not val */
+    background: #E0EED3;
+}
+
+select {
+	margin: 10px;
+    padding: 10px 42px 10px 10px;
+	color: #444;
+	font-size: 15px;
+	border: 1px solid #000;
+	border-radius: 0;
+	display: inline-block;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	cursor: pointer;
+	outline: none;
+}
+
+.select_a, .select_b {
+	width: 300px;
+}
+
+.sel_state_a, .sel_state_b {
+	width: 100px;
+}
+
+label.dropdown { position: relative; }
+label.dropdown:after {
+	content: '>';
+	font: 16px Consolas, monospace;
+	color: #000;
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	transform: rotate(90deg);
+	right: 10px;
+	top: -3px;
+	border-bottom: 1px solid #aaa;
+	position: absolute;
+	pointer-events: none;
+	width: 35px;
+	padding: 0 0 5px 0;
+	text-indent: 14px;
+}
+
+select:focus {
+    outline: none;
+
+}
+
+.percentage {
+	font-weight: bold;
+	font-family: Georgia, Serif;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 100px;
+	padding-bottom: 20px;
+    width: 20%; 
+}
+
+.percentage #per {
+	position: relative;
+	font-size: 60px;
+	color: #7EAD53;
+	display: block;
+	padding-bottom: 3px;
+	margin-bottom: 7px
+}
+#bottom {
+	position: absolute;
+	border-bottom: 5px solid transparent;
+	margin-top: 3px;
+	bottom: -1pt;
+	left: 10%;
+	right: 10%;
+}
+#per:hover {
+	cursor: pointer;
+}
+#per:hover #bottom {
+	border-bottom: 5px solid #7EAD53;
+}
+
+.sens {
+	float: left;
+	width: 75%;
+	height: auto;
+	margin: 0 12.5%;
+}
+
+.sen-a {
+	float: left;
+	padding-top: 10px;
+	width: 350px;
+}
+
+.sen-a h2 {
+	font-size: 25px;
+	margin-bottom: 3px;
+	padding-left: 6px;
+	border-left-width: 8px;
+	border-left-style: solid;
+}
+
+.sen-a span {
+	padding-left: 14px;
+}
+
+.sen-a-img img {
+	width: 120px;
+	height: auto;
+	padding-top: 14px;
+	padding-left: 14px;
+}
+
+.sen-b {
+	float: right;
+	text-align: right;
+	padding-top: 10px;
+	width: 350px;
+}
+
+.sen-b h2 {
+	font-size: 25px;
+	margin-bottom: 3px;
+	padding-right: 6px;
+	border-right-width: 8px;
+	border-right-style: solid;
+}
+
+.sen-b-img img {
+	width: 120px;
+	height: auto;
+	padding-top: 14px;
+	padding-right: 14px;
+}
+
+.sen-b span {
+	padding-right: 14px;
+}
+
+.details {
+	margin: 0 auto;
+	font-family: sans-serif;
+	font-size: 9pt;
+	width: 420px;
+	display: none;
+	text-align: center;
+	font-weight: bold;
+
+}
+.details table {
+	
+}
+.labels {
+	width: 210px;
+	text-align: right;
+	padding-right: 5px;
+}
+.values {
+	width: 210px;
+	font-weight: normal;
+	text-align: left;
+	padding-left: 5px;
+}
